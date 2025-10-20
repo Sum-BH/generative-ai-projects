@@ -1,0 +1,12 @@
+# config.example.yaml
+models:
+  # Example paths. Users should copy this to config.yaml and edit to point to their local model files.
+  llm_path: "./models/mistral-7b.gguf"        # local path to gguf or other LLM file
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"  # HF repo id OR local path
+
+chroma:
+  persist_directory: "./chroma_db"
+
+server:
+  host: "127.0.0.1"
+  port: 7860

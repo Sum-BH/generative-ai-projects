@@ -1,0 +1,8 @@
+langchain
+chromadb
+gradio
+transformers
+sentence-transformers
+huggingface-hub
+pyyaml
+jupyterlab
