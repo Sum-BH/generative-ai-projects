@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+.venv/
+env/
+.env
+
+# VSCode
+.vscode/
+
+# Data & models (do NOT commit large model files)
+models/
+*.gguf
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Vector DBs / local DB files
+chroma_db/
+*.sqlite
+*.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config override
+config.yaml
