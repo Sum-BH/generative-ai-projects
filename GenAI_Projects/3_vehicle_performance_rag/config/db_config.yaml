@@ -1,0 +1,5 @@
+user: "root"
+password: "db_local!Bbuild26!"
+host: "localhost"
+port: 3306
+database: "telemetry_analytics_db"
